@@ -1,0 +1,96 @@
+body{
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  margin: 20px;
+}
+
+.badges{
+  display: flex;
+  justify-self: center;
+}
+.badge{
+  display: flex;
+  
+  font-weight: 500;
+  font-size: 0.875em;
+  line-height: 20px;
+  padding: 2px 12px;
+  margin: 100px 10px;
+}
+.pill{
+  border-radius: 12px;
+}
+
+.gray{
+  background-color: #f3f3f3;
+  color:#1F2937;
+}
+.red{
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+.yellow{
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+.green{
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+.blue{
+  background-color: #DBEAFE;
+  color: #1E40AF;
+}
+.indigo{
+  background-color: #E0E7FF;
+  color: #3730A3;
+}
+.purple{
+  background-color: #EDE9FE;
+  color: #5B21B6;
+}
+.pink{
+  background-color: #FCE7F3;
+  color: #9D174D;
+}
+.banner{
+  max-width: 890px;
+  padding: 16px;
+  margin: 30px 0px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.banner > h1{
+  font-weight: 500;
+  font-size: 0.875em;
+  line-height: 20px;
+}
+
+.banner > p{
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 20px;
+}
+.success{
+  background-color: #ecfdf5;
+}
+.success > h1{
+  color: #065F46;
+}
+.success > p{
+  color: #047857;
+}
+
+.warning{
+  background-color: #fffbeb;
+}
+.warning > h1{
+  color: #92400e;
+}
+.warning > p{
+  color: #b45309;
+}
+
