@@ -1,4 +1,4 @@
-import createMessage from "../hooks/createMessage"
+import createMessage from "../../hooks/createMessage"
 
 export default function Banner({type,children}){
     
