@@ -94,3 +94,22 @@ body{
   color: #b45309;
 }
 
+.error{
+  background-color: #fef2f2;
+}
+.error > h1{
+  color: #92400e;
+}
+.error > p{
+  color: #B45309;
+}
+
+.neutral{
+  background-color: #eff6ff;
+}
+.neutral > h1{
+  color: #1e40af;
+}
+.neutral > p{
+  color: #1c51b9;
+}
