@@ -13,19 +13,19 @@ function App() {
       <Badge variant='pill' color='gray'>Badge</Badge>  
     </div>
     <div className='banners'>
-      <Banner variant='multi-line' type='success'>
+      <Banner type='success'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Aliquid pariatur, ipsum similique veniam.
         </Banner>
-      <Banner variant='multi-line' type='warning'>
+      <Banner type='warning'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Aliquid pariatur, ipsum similique veniam.
         </Banner>
-      <Banner variant='multi-line' type='error'>
+      <Banner type='error'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Aliquid pariatur, ipsum similique veniam.
         </Banner>
-      <Banner variant='multi-line' type='neutral'>
+      <Banner type='neutral'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Aliquid pariatur, ipsum similique veniam.
         </Banner>
