@@ -27,33 +27,57 @@ body{
   background-color: #f3f3f3;
   color:#1F2937;
 }
+.gray:hover{
+  box-shadow: 0 10px 30px rgba(94, 98, 95, 0.21);
+}
 .red{
   background-color: #FEE2E2;
   color: #991B1B;
+}
+.red:hover{
+  box-shadow: 0 10px 30px rgba(178, 16, 16, 0.21);
 }
 .yellow{
   background-color: #FEF3C7;
   color: #92400E;
 }
+.yellow:hover{
+  box-shadow: 0 10px 30px rgba(166, 168, 25, 0.21);
+}
 .green{
   background-color: #D1FAE5;
   color: #065F46;
+}
+.green:hover{
+  box-shadow: 0 10px 30px rgba(15, 202, 62, 0.21);
 }
 .blue{
   background-color: #DBEAFE;
   color: #1E40AF;
 }
+.blue:hover{
+  box-shadow: 0 10px 30px rgba(7, 23, 192, 0.21);
+}
 .indigo{
   background-color: #E0E7FF;
   color: #3730A3;
+}
+.indigo:hover{
+  box-shadow: 0 10px 30px rgba(46, 34, 143, 0.21);
 }
 .purple{
   background-color: #EDE9FE;
   color: #5B21B6;
 }
+.purple:hover{
+  box-shadow: 0 10px 30px rgba(74, 21, 160, 0.21);
+}
 .pink{
   background-color: #FCE7F3;
   color: #9D174D;
+}
+.pink:hover{
+  box-shadow: 0 10px 30px rgba(192, 20, 163, 0.21);
 }
 .banner{
   max-width: 890px;
@@ -84,6 +108,9 @@ body{
 .success > p{
   color: #047857;
 }
+.success:hover{
+  box-shadow: 0 10px 30px rgba(15, 157, 55, 0.21);
+}
 
 .warning{
   background-color: #fffbeb;
@@ -93,6 +120,9 @@ body{
 }
 .warning > p{
   color: #b45309;
+}
+.warning:hover{
+  box-shadow: 0 10px 30px rgba(208, 167, 21, 0.21);
 }
 
 .error{
@@ -104,6 +134,9 @@ body{
 .error > p{
   color: #B45309;
 }
+.error:hover{
+  box-shadow: 0 10px 30px rgba(164, 20, 20, 0.21);
+}
 
 .neutral{
   background-color: #eff6ff;
@@ -113,6 +146,9 @@ body{
 }
 .neutral > p{
   color: #1c51b9;
+}
+.neutral:hover{
+  box-shadow: 0 10px 30px rgba(30, 22, 187, 0.21);
 }
 .card-wrap {
   position: relative;
