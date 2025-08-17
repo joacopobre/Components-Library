@@ -11,6 +11,7 @@ export default function Badges (){
               <Badge variant='pill' color='indigo'>Badge</Badge>  
               <Badge variant='pill' color='pink'>Badge</Badge>  
               <Badge variant='pill' color='purple'>Badge</Badge>  
+              <Badge variant='pill' color='green'>Badge</Badge>  
               
         </div>
     )
