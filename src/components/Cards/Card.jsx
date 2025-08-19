@@ -1,23 +1,19 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import getCardMeta from "../../hooks/getCardMeta"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import getCardMeta from '../../utils/getCardMeta'
 
-export default function Card({type,children }){
-    const {icon,message} = getCardMeta(type)
-    const iconClass =`icon ${type}`
-    return(
-        <>
-        <div className="card-wrap">
-            <div className={iconClass}>
-                {icon && <FontAwesomeIcon icon={icon} size="lg" />}
-            </div>
+export default function Card({ type = 'download', children }) {
+  const { icon, message } = getCardMeta(type)
 
-            <div className="card">
-                <h1>{message}</h1>
-                <p>{children}</p>
-            </div>
+  return (
+    <article className="card">
+      {icon ? (
+        <div className={`icon ${type}`} aria-hidden="true">
+          <FontAwesomeIcon icon={icon} />
         </div>
+      ) : null}
 
-        </>
-        
-    )
+      <h1>{message}</h1>
+      <p>{children}</p>
+    </article>
+  )
 }

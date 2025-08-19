@@ -1,25 +1,12 @@
-import Banner from "./Banner";
+import Banner from './Banner'
 
-export default function Banners(){
-    return (
-        <div className='banners'>
-            <Banner type='success'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aliquid pariatur, ipsum similique veniam.
-            </Banner>
-            <Banner type='warning'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Aliquid pariatur, 
-                ipsum similique veniam quo totam eius aperiam dolorum.
-            </Banner>
-            <Banner type='error'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.
-            </Banner>
-            <Banner type='neutral'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Aliquid pariatur, ipsum similique veniam.
-            </Banner>
-        </div>
-    )
+export default function Banners() {
+  return (
+    <>
+      <Banner type="success">Everything worked! You can proceed.</Banner>
+      <Banner type="warning">Heads up! Please check your input.</Banner>
+      <Banner type="error">There was a problem with your request.</Banner>
+      <Banner type="neutral">Update available. Click to learn more.</Banner>
+    </>
+  )
 }

@@ -7,10 +7,10 @@ import Testimonials from './components/Testimonials/Testimonials';
 function App() {
   return (
     <>
-    <Badges />
-    <Banners />
-    <Cards />
-    <Testimonials />
+      <Badges />
+      <Banners />
+      <Cards />
+      <Testimonials />
     </>
   );
 }

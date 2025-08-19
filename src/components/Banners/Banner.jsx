@@ -1,12 +1,13 @@
-import createMessage from "../../hooks/createMessage"
+import createMessage from '../../utils/buildBannerMessage'
 
-export default function Banner({type,children}){
-    
-    const className = `banner ${type}`
-    return(
-        <div className={className}>
-            <h1>{createMessage({type})}</h1>
-            {children?<p>{children}</p>:null}
-        </div>
-    )
+export default function Banner({ type = 'neutral', children }) {
+  const className = `banner ${type}`
+  const title = createMessage({ type })
+
+  return (
+    <section className={className} role="status" aria-live="polite">
+      <h1>{title}</h1>
+      {children ? <p>{children}</p> : null}
+    </section>
+  )
 }
